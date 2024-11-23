@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 import java.util.Scanner;
 
 public class Main {
@@ -16,7 +18,7 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    MortgageCalculator.mortgageCalculator(scanner);
+                     MortgageCalculator.mortgageCalculator(scanner);
                     break;
                 case 2:
                     FutureValueCalculator.futureValueCalculator(scanner);
